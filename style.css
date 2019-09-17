@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("concrete_seamless.png");
 }
 
 * {
@@ -234,10 +234,6 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   #logo { 
     width: 100%;
-  }
-
-  header {
-    position: static;
   }
   nav {
   padding-right: 6em;
