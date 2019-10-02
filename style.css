@@ -3,7 +3,8 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("concrete_seamless.png");
+  background: url("https://media.giphy.com/media/xUOwG3rLN3nzO7XAMU/giphy.gif");
+  background-size: 50%;
 }
 
 * {
@@ -35,14 +36,14 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: purple;
 }
 
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  border-bottom: 3px solid purple;
 }
 
 h2,
@@ -60,7 +61,7 @@ h3 {
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid purple;
 }
 
 #logo {
@@ -74,7 +75,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: purple;
 }
 
 nav {
@@ -103,10 +104,10 @@ footer {
   clear: both;
   font-size: 12px;
   color: #ffffff;
-  color: #cccccc;
+  color: purple;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+  background: whitesmoke;
+  border-top: 8px solid purple;
   height: 50px;
 }
 
@@ -114,7 +115,7 @@ h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eeeeee;
+  border-bottom: 2px solid purple;
 }
 
 /* main */
@@ -131,7 +132,7 @@ h3, h2 {
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid purple;
 }
 
 /* portfolio page */
@@ -152,6 +153,7 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  border-radius: 20px;
 }
 
 .work h3 {
@@ -164,7 +166,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: purple;
   border-bottom: 0;
 }
 
@@ -212,7 +214,7 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: purple;
   border: 0 none;
 }
 
