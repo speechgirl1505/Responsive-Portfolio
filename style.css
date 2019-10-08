@@ -64,7 +64,7 @@ h3 {
   color: #ffffff;
   background: rgb(204, 187, 238);
   border-bottom: 2px solid rgb(51, 37, 80);
-  opacity: .8;
+  opacity: .9;
 }
 
 #logo {
@@ -112,7 +112,7 @@ footer {
   background: rgb(204, 187, 238);
   border-top: 8px solid rgb(51, 37, 80);
   height: 90px; 
-  opacity: .8;
+  opacity: .9;
 }
 
 h3, h2 {
