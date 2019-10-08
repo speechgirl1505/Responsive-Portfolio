@@ -2,9 +2,9 @@ body {
   font-family: 'Handlee';
   font-size: 18px;
   line-height: 34px;
-  color: #777777;
+  color: whitesmoke;
   background: url("https://media.giphy.com/media/xUOwG3rLN3nzO7XAMU/giphy.gif");
-  background-size: 50%;
+  background-size: auto;
 }
 
 * {
@@ -36,14 +36,15 @@ h2,
 h3 {
   font-family: 'Kaushan Script', cursive;
   font-weight: 700;
-  color: rgb(99, 85, 128);
+  color: whitesmoke;
 }
 
 h1 {
+  text-align: center;
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid rgb(99, 85, 128);
+  border-bottom: 3px solid rgb(51, 37, 80);
 }
 
 h2,
@@ -60,8 +61,8 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid rgb(99, 85, 128);
+  background: rgb(204, 187, 238);
+  border-bottom: 2px solid rgb(51, 37, 80);
 }
 
 #logo {
@@ -75,7 +76,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: rgb(99, 85, 128);
+  /* background: rgb(99, 85, 128); */
 }
 
 nav {
@@ -88,9 +89,9 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: rgb(99, 85, 128);
+  color: whitesmoke;
   text-decoration: none;
-  border-left: 1px solid rgb(99, 85, 128);
+  border-left: 1px solid rgb(51, 37, 80);
 }
 
 nav a:first-child {
@@ -104,19 +105,26 @@ footer {
   clear: both;
   font-size: 12px;
   color: #ffffff;
-  color: rgb(99, 85, 128);
+  color: rgb(51, 37, 80);
   text-align: center;
-  background: whitesmoke;
-  border-top: 8px solid rgb(99, 85, 128);
+  background: rgb(204, 187, 238);
+  border-top: 8px solid rgb(51, 37, 80);
   height: 90px; 
-  opacity: .8;
 }
 
 h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid rgb(99, 85, 128);
+  border-bottom: 2px solid rgb(51, 37, 80);
+}
+
+a {
+  color: whitesmoke
+}
+
+a:hover {
+  color: rgb(51, 37, 80)
 }
 
 /* main */
@@ -132,8 +140,8 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid rgb(99, 85, 128);
+  background: rgb(204, 187, 238);
+  border: 1px solid rgb(51, 37, 80);
 }
 
 /* portfolio page */
@@ -151,11 +159,12 @@ h3, h2 {
 }
 
 .work img {
+  border-radius: 20px;
   max-width: auto;
   max-height: 300px;
   border: 0 none;
   opacity: 0.8;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 .work h3 {
@@ -221,7 +230,7 @@ input[type=submit] {
 }
 
 .fab {
-  color: rgb(99, 85, 128);
+  color: whitesmoke;;
 }
 
 @media screen and (max-width: 980px) {
